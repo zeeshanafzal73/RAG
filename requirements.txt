@@ -1,0 +1,9 @@
+faiss-cpu==1.10.0
+langchain==0.3.19
+langchain-community==0.3.18
+langchain-core==0.3.40
+langchain-text-splitters==0.3.6
+langsmith==0.3.11
+nltk==3.9.1
+numpy==1.26.4
+
