@@ -12,11 +12,33 @@ env/
 *.venv
 *.env
 
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
 # Logs and databases
 logs/
 *.log
 *.sqlite3
 db.sqlite3
+
+# Ignore secrets and credentials
+.env
+config.json
+credentials.json
+
+# Ignore FAISS index files (optional)
+*.faiss
+faiss_index/
+
+# Ignore embeddings and large data files (if stored locally)
+embeddings/
+*.npy
+*.npz
+*.pkl
+
+# Ignore temporary and system files
+.DS_Store
+Thumbs.db
 
 # Ignore VS Code and PyCharm settings
 .vscode/
